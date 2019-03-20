@@ -22,7 +22,7 @@ public class SimpleCompoundInterest {
 	
 	/**
 	 * Calculates Simple Interest
-	 * @return
+	 * @return simple interest
 	 */
 	public double simpleInterest() {
 		return (principle*time*rate)/100;
@@ -30,7 +30,7 @@ public class SimpleCompoundInterest {
 	
 	/**
 	 * Calculates CompoundInterest
-	 * @return
+	 * @return compound interest
 	 */
 	public double compoundInterest() {
 		return (double) (principle * (Math.pow((1 + rate / 100), time)));
